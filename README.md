@@ -62,7 +62,7 @@ Where X is a channel number from 1 to 4. To enable channel 2:
 After enabling a channel you must set the channel mode, use the following table (from the ADS1015 datasheet):
 
 chX_cfg | Input MUX Setting | Mode
---- | ---
+--- | --- | ---
 0 | A0 (Pos) and A1 (Neg) | Differential
 1 | A0 (Pos) and A3 (Neg) | Differential
 2 | A1 (Pos) and A3 (Neg) | Differential
