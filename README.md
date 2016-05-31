@@ -29,6 +29,7 @@ Add the following line to the pi's /boot/config.txt to load the overlay at boot:
 ```
 
 **Options**
+
 By default the overlay will only expose a single channel in differential mode (Pos A0, Neg A1). To expose other channels, change the channel configurations, change the sample rate or change the amplifier gain/scale you need to set some additional options in /boot/config.txt. All these lines must follow the "dtoverlay=ads1015" line in config.txt.
 
 To set the i2c slave address specify the address you set with the addr pin. The default of 0x48 assumes the addr pin is pulled to ground.
