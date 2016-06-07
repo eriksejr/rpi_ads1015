@@ -53,10 +53,10 @@ To enable a channel add the following line to your /boot/config.txt after the "d
   dtparam=chX_enable=true
 ```
 
-Where X is a channel number from 1 to 4. To enable channel 2:
+Where X is a channel letter from A to D. To enable channel B:
 
 ```
-  dtparam=ch2_enable=true
+  dtparam=chB_enable=true
 ```
 
 After enabling a channel you must set the channel mode, use the following table (from the ADS1015 datasheet):
